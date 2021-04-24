@@ -1,1 +1,37 @@
-<p>home works!</p>
+<div class="container-lg">
+    <div class="row">
+        <div class="col-md-4 col-12" style="background: #f6c427;">
+            <div class="row  justify-content-between">
+                <div class="col-md-10 col-4">
+                    <app-image-profile></app-image-profile>
+                </div>
+                <div class="d-none d-md-block col-12">
+                    <ul class="menuButton">
+                        <li><a mat-stroked-button [routerLink]="['']">Home</a></li>
+                        <li><a mat-stroked-button [routerLink]="['/portfolio/education']">Education</a></li>
+                        <li><a mat-stroked-button [routerLink]="['/portfolio/training']">Training</a></li>
+                        <li><a mat-stroked-button [routerLink]="['/portfolio/membership']">Membership</a></li>
+                        <li><a mat-stroked-button [routerLink]="['/portfolio/experience']">Experience</a></li>
+                        <li><a mat-stroked-button [routerLink]="['/portfolio/skills']">Skills</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-10 col-6 align-self-center">
+                    <app-contactus></app-contactus>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-block d-md-none">
+                    <div class="col-12" style="background: #f6c427;"> Menu on sm</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 col-12" style="background: #484e5c;">
+            <div style="height: 200px;">
+                <app-header></app-header>
+            </div>
+            <div>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>

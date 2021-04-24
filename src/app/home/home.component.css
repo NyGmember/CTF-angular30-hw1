@@ -1,0 +1,16 @@
+.menuButton {
+    list-style-type:none;
+}
+
+.menuButton a {
+    width: 160px;
+}
+
+.menuButton a:active {
+    text-decoration: none;
+}
+
+.menuButton a:hover {
+    text-decoration: none;
+}
+  

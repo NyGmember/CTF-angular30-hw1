@@ -1,0 +1,23 @@
+.icon-w {
+    color: #ffedc6;
+    width: 3rem;
+}
+
+.contact{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-indent: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3f4042;
+}
+
+.contact>div{
+    text-transform: none;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: left;
+    margin: 10px -30px;
+    color: #3f4042;
+}
