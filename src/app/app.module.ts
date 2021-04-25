@@ -13,6 +13,7 @@ import { HeaderComponent } from "./header/header.component";
 import { QouteComponent } from './qoute/qoute.component';
 import { PortfoiloComponent } from './portfoilo/portfoilo.component';
 import { LevelItemComponent } from "./level-item/level-item.component";
+import { PortdataService } from "./portdata.service";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { LevelItemComponent } from "./level-item/level-item.component";
     AppRouteModule,
     MatButtonModule
   ],
-  providers: [],
+  providers: [PortdataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
